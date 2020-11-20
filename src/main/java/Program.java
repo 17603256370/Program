@@ -47,7 +47,7 @@ public class Program {
         }
         for(int i=0;i<ArrayUtils.getLength(array1);i++)
         {
-            if(array1[i]==array2[i])
+            if(array1[i]!=array2[i])
                 continue;
             else
             {
